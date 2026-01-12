@@ -5,8 +5,6 @@ This repository contains code, data scripts, and evaluation utilities for our PR
 
 **Authors:** Zile Wang, Zhide Xie (Fudan University)
 
----
-
 ## Overview
 
 We study how different reward specifications affect alignment outcomes on a lightweight behavior control task: **emoji usage in responses**.
@@ -18,8 +16,6 @@ We compare two training pipelines:
 
 - **RLHF (Reward Model + PPO)** using HuggingFace **TRL PPOTrainer**
 - **DPO (Direct Preference Optimization)** using **TRL DPOTrainer**
-
----
 
 ## Preference Datasets
 
@@ -33,8 +29,6 @@ We construct two synthetic preference datasets:
     2) *hard negatives* where overuse/spam emojis are dispreferred  
   - Ratio (presence : overuse-negative) ≈ **5 : 1**
 
----
-
 ## Key Findings (Qualitative)
 
 - **PPO + Dataset A** → strong **reward hacking**: emoji spam, irrelevant emojis, occasional garbling.
@@ -42,8 +36,6 @@ We construct two synthetic preference datasets:
 - **Adding overuse negatives (Dataset B)**:
   - PPO becomes **very conservative** (often near-zero emoji).
   - DPO yields **controlled, context-appropriate** emoji usage with no obvious spam.
-
----
 
 ## Evaluation
 
