@@ -1,4 +1,5 @@
 # Reward Design Lessons for Teaching a Small Language Model to Use Emoji  
+
 *A Comparative Study of RLHF (PPO) and DPO*
 
 This repository contains code, data scripts, and evaluation utilities for our PRML course project on **reward design for stylistic control**: encouraging a small instruction-tuned language model to use emojis **appropriately** in dialogue.
@@ -45,8 +46,3 @@ We evaluate on a fixed held-out set of **100 prompts** with consistent decoding 
 - **Emoji density**: # emoji characters (or tokens) per 100 generated tokens
 
 Figures and sample generations are included under `figures/` (histograms) and the qualitative table image.
-
-├── datasets/ # 数据相关：下载/清洗/构造 preference 数据集等
-├── scripts/ # 训练与实验脚本：RM / PPO / DPO 训练、绘图、辅助工具等
-└── eval/ # 评测相关：运行评测、统计指标、生成图表等
-└── eval_result/ # 评测输出：生成结果、metrics、日志、可视化图片（histogram 等）
