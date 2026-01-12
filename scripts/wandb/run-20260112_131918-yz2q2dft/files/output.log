@@ -1,0 +1,35 @@
+  0%|                                                                                                                                                                                                                                                                                                                                                  | 0/10000 [00:00<?, ?it/s]/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/utils/checkpoint.py:85: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+  1%|███▏                                                                                                                                                                                                                                                                                                                                   | 97/10000 [02:45<4:28:44,  1.63s/it]Traceback (most recent call last):
+{'loss': 0.691, 'grad_norm': 1.4870061874389648, 'learning_rate': 4.995500000000001e-06, 'rewards/chosen': 0.004514620173722506, 'rewards/rejected': 9.671600855654106e-05, 'rewards/accuracies': 0.5375000238418579, 'rewards/margins': 0.004417904652655125, 'logps/chosen': -92.09637451171875, 'logps/rejected': -65.792724609375, 'logits/chosen': -0.8800697326660156, 'logits/rejected': -1.1835565567016602, 'epoch': 0.07}
+{'loss': 0.6835, 'grad_norm': 1.4696120023727417, 'learning_rate': 4.990500000000001e-06, 'rewards/chosen': 0.01705455407500267, 'rewards/rejected': -0.002389059402048588, 'rewards/accuracies': 0.7906249761581421, 'rewards/margins': 0.019443612545728683, 'logps/chosen': -93.96034240722656, 'logps/rejected': -66.68049621582031, 'logits/chosen': -0.8855500221252441, 'logits/rejected': -1.197660207748413, 'epoch': 0.13}
+{'loss': 0.6742, 'grad_norm': 1.4412424564361572, 'learning_rate': 4.9855e-06, 'rewards/chosen': 0.03499772772192955, 'rewards/rejected': -0.003424715716391802, 'rewards/accuracies': 0.9203125238418579, 'rewards/margins': 0.038422442972660065, 'logps/chosen': -94.68089294433594, 'logps/rejected': -67.60028839111328, 'logits/chosen': -0.857460618019104, 'logits/rejected': -1.1471153497695923, 'epoch': 0.2}
+{'loss': 0.664, 'grad_norm': 1.5960382223129272, 'learning_rate': 4.9805e-06, 'rewards/chosen': 0.054062433540821075, 'rewards/rejected': -0.005430882330983877, 'rewards/accuracies': 0.953125, 'rewards/margins': 0.05949331447482109, 'logps/chosen': -93.47138977050781, 'logps/rejected': -66.32330322265625, 'logits/chosen': -0.8727501630783081, 'logits/rejected': -1.1645984649658203, 'epoch': 0.27}
+{'loss': 0.6506, 'grad_norm': 1.5056636333465576, 'learning_rate': 4.9755e-06, 'rewards/chosen': 0.08019299060106277, 'rewards/rejected': -0.007183493580669165, 'rewards/accuracies': 0.979687511920929, 'rewards/margins': 0.08737648278474808, 'logps/chosen': -93.34334564208984, 'logps/rejected': -66.2336196899414, 'logits/chosen': -0.8650110960006714, 'logits/rejected': -1.1772050857543945, 'epoch': 0.34}
+  File "/home/taoji/zdxie/PRML-RLHF/scripts/DPO.py", line 199, in <module>                                                                                                                                                                                                                                                                                                       
+{'eval_loss': 0.6450262665748596, 'eval_runtime': 6.7395, 'eval_samples_per_second': 74.189, 'eval_steps_per_second': 9.348, 'eval_rewards/chosen': 0.09035501629114151, 'eval_rewards/rejected': -0.008992877788841724, 'eval_rewards/accuracies': 0.9920634627342224, 'eval_rewards/margins': 0.09934789687395096, 'eval_logps/chosen': -92.67986297607422, 'eval_logps/rejected': -66.27772521972656, 'eval_logits/chosen': -0.8605742454528809, 'eval_logits/rejected': -1.1667426824569702, 'epoch': 0.34}
+{'loss': 0.6402, 'grad_norm': 1.391404151916504, 'learning_rate': 4.9705e-06, 'rewards/chosen': 0.1003151535987854, 'rewards/rejected': -0.009162825532257557, 'rewards/accuracies': 0.9906250238418579, 'rewards/margins': 0.10947798192501068, 'logps/chosen': -92.62248229980469, 'logps/rejected': -65.45450592041016, 'logits/chosen': -0.8413734436035156, 'logits/rejected': -1.1595178842544556, 'epoch': 0.4}
+{'loss': 0.627, 'grad_norm': 1.3029927015304565, 'learning_rate': 4.9655e-06, 'rewards/chosen': 0.12752805650234222, 'rewards/rejected': -0.010294460691511631, 'rewards/accuracies': 0.9937499761581421, 'rewards/margins': 0.13782253861427307, 'logps/chosen': -94.72208404541016, 'logps/rejected': -68.55708312988281, 'logits/chosen': -0.8608554601669312, 'logits/rejected': -1.1720298528671265, 'epoch': 0.47}
+{'loss': 0.6123, 'grad_norm': 1.3484457731246948, 'learning_rate': 4.9605e-06, 'rewards/chosen': 0.15704695880413055, 'rewards/rejected': -0.012948468327522278, 'rewards/accuracies': 0.995312511920929, 'rewards/margins': 0.16999544203281403, 'logps/chosen': -91.92878723144531, 'logps/rejected': -66.07286071777344, 'logits/chosen': -0.8435279130935669, 'logits/rejected': -1.1468868255615234, 'epoch': 0.54}
+{'loss': 0.6004, 'grad_norm': 1.3393298387527466, 'learning_rate': 4.9555e-06, 'rewards/chosen': 0.18447241187095642, 'rewards/rejected': -0.012319272384047508, 'rewards/accuracies': 0.9937499761581421, 'rewards/margins': 0.19679167866706848, 'logps/chosen': -89.7510757446289, 'logps/rejected': -64.46089935302734, 'logits/chosen': -0.8556889295578003, 'logits/rejected': -1.1605005264282227, 'epoch': 0.61}
+    main(script_args, training_args, model_args, dataset_args)
+  File "/home/taoji/zdxie/PRML-RLHF/scripts/DPO.py", line 163, in main
+    trainer.train()
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 4071, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/accelerate/accelerator.py", line 2852, in backward
+    loss.backward(**kwargs)
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

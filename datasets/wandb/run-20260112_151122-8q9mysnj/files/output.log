@@ -1,0 +1,189 @@
+  0%|                                                                                 | 1/1000 [00:10<2:48:59, 10.15s/it]
+{'eps': 0, 'objective/kl': 1.1444091796875e-05, 'objective/entropy': 26.357776641845703, 'objective/non_score_reward': -5.722046125811175e-07, 'objective/rlhf_reward': 31.218908309936523, 'objective/scores': 31.218908309936523, 'policy/approxkl_avg': 0.0005819008219987154, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': 0.006339147686958313, 'loss/value_avg': 142.54452514648438, 'val/clipfrac_avg': 0.7265625, 'policy/entropy_avg': 1.124967098236084, 'val/ratio': 0.9948325157165527, 'val/ratio_var': 5.0399929023114964e-05, 'val/num_eos_tokens': 0, 'lr': 2e-06, 'episode': 1, 'epoch': 0.0}
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┓
+┃[1m [0m[1mquery                                         [0m[1m [0m┃[1m [0m[1mmodel response                                [0m[1m [0m┃[1m [0m[1mscore              [0m[1m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━┩
+│ System: Reply casually and you may use emoji.  │  Sure, I'd love to! Cheers! 🥂 Cheers! 🥂      │ 52.35011291503906   │
+│ User: Say, Jim, how about going for a few      │ Cheers! 🥂 Cheers! 🥂 Cheers! 🥂               │                     │
+│ beers after dinner?                            │                                                │                     │
+│ Assistant:                                     │                                                │                     │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼─────────────────────┤
+│ System: Reply casually and you may use emoji.  │  Sure, I can do push-ups! 😊                   │ 48.76416778564453   │
+│ User: Can you do push-ups?                     │                                                │                     │
+│ Assistant:                                     │ Is there anything else you'd like to know or   │                     │
+│                                                │ do? 📺                                         │                     │
+│                                                │                                                │                     │
+│                                                │ #Pushups #Fitness                              │                     │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼─────────────────────┤
+│ System: Reply casually and you may use emoji.  │  Sure, I can study with the radio on! Just     │ 43.165443420410156  │
+│ User: Can you study with the radio on?         │ make sure to listen to some music or podcasts  │                     │
+│ Assistant:                                     │ that interest you. Good luck! 😊               │                     │
+│                                                │                                                │                     │
+│                                                │ #Study                                         │                     │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼─────────────────────┤
+│ System: Reply casually and you may use emoji.  │  I'm just here to help, so I'm fine! How can I │ 39.58580780029297   │
+│ User: Are you all right?                       │ assist you today? 😊                           │                     │
+│ Assistant:                                     │                                                │                     │
+│                                                │ ---                                            │                     │
+│                                                │                                                │                     │
+│                                                │ If you have any other questions or need        │                     │
+│                                                │ further                                        │                     │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼─────────────────────┤
+│ System: Reply casually and you may use emoji.  │  Hey! I'm glad you like your skates. They're   │ -16.209999084472656 │
+│ User: Hey John, nice skates. Are they new?     │ new, so I'm excited to see how they turn out.  │                     │
+│ Assistant:                                     │ Let me know if you need                        │                     │
+└────────────────────────────────────────────────┴────────────────────────────────────────────────┴─────────────────────┘
+{'eps': 0, 'objective/kl': 0.011518478393554688, 'objective/entropy': 14.74146842956543, 'objective/non_score_reward': -0.0005759239429607987, 'objective/rlhf_reward': -4.8580641746521, 'objective/scores': -4.85748815536499, 'policy/approxkl_avg': 0.0005299564800225198, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0007860921323299408, 'loss/value_avg': 26.34418487548828, 'val/clipfrac_avg': 0.84375, 'policy/entropy_avg': 0.4821415841579437, 'val/ratio': 0.9949100613594055, 'val/ratio_var': 9.70043311099289e-06, 'val/num_eos_tokens': 0, 'lr': 1.9979999999999998e-06, 'episode': 2, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': 0.055206298828125, 'objective/entropy': 25.97222328186035, 'objective/non_score_reward': -0.0027603148482739925, 'objective/rlhf_reward': 48.868896484375, 'objective/scores': 48.87165832519531, 'policy/approxkl_avg': 0.0007738835411146283, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0066880956292152405, 'loss/value_avg': 343.07427978515625, 'val/clipfrac_avg': 0.203125, 'policy/entropy_avg': 0.9495269060134888, 'val/ratio': 0.9963019490242004, 'val/ratio_var': 1.3356483577808831e-05, 'val/num_eos_tokens': 0, 'lr': 1.996e-06, 'episode': 3, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': 0.22458839416503906, 'objective/entropy': 40.681243896484375, 'objective/non_score_reward': -0.011229420080780983, 'objective/rlhf_reward': -11.963814735412598, 'objective/scores': -11.952585220336914, 'policy/approxkl_avg': 0.001087611773982644, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.008142732083797455, 'loss/value_avg': 74.66796875, 'val/clipfrac_avg': 1.0, 'policy/entropy_avg': 1.2607206106185913, 'val/ratio': 0.9916349649429321, 'val/ratio_var': 3.373550498508848e-05, 'val/num_eos_tokens': 0, 'lr': 1.994e-06, 'episode': 4, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': -0.10692405700683594, 'objective/entropy': 22.62263298034668, 'objective/non_score_reward': 0.005346203222870827, 'objective/rlhf_reward': 44.4885368347168, 'objective/scores': 44.483192443847656, 'policy/approxkl_avg': 0.0008197627612389624, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0027586594223976135, 'loss/value_avg': 207.95404052734375, 'val/clipfrac_avg': 0.0234375, 'policy/entropy_avg': 0.9906752109527588, 'val/ratio': 1.0066009759902954, 'val/ratio_var': 2.1623030988848768e-05, 'val/num_eos_tokens': 0, 'lr': 1.9919999999999997e-06, 'episode': 5, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': -0.081573486328125, 'objective/entropy': 56.698692321777344, 'objective/non_score_reward': 0.004078673664480448, 'objective/rlhf_reward': -11.165142059326172, 'objective/scores': -11.169220924377441, 'policy/approxkl_avg': 0.0016828078078106046, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0023403167724609375, 'loss/value_avg': 160.65078735351562, 'val/clipfrac_avg': 0.8515625, 'policy/entropy_avg': 1.2059811353683472, 'val/ratio': 0.9961062669754028, 'val/ratio_var': 8.011168392840773e-05, 'val/num_eos_tokens': 0, 'lr': 1.99e-06, 'episode': 6, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': 0.09251213073730469, 'objective/entropy': 30.707534790039062, 'objective/non_score_reward': -0.0046256063506007195, 'objective/rlhf_reward': 45.21332550048828, 'objective/scores': 45.217952728271484, 'policy/approxkl_avg': 0.001584522076882422, 'policy/clipfrac_avg': 0.0078125, 'loss/policy_avg': -0.010700467973947525, 'loss/value_avg': 116.7524642944336, 'val/clipfrac_avg': 0.390625, 'policy/entropy_avg': 0.6777282953262329, 'val/ratio': 0.9970754981040955, 'val/ratio_var': 2.3858476652094396e-06, 'val/num_eos_tokens': 0, 'lr': 1.988e-06, 'episode': 7, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': 0.07197284698486328, 'objective/entropy': 38.38207244873047, 'objective/non_score_reward': -0.0035986427683383226, 'objective/rlhf_reward': 48.759620666503906, 'objective/scores': 48.76321792602539, 'policy/approxkl_avg': 0.0014329188270494342, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': 0.016365915536880493, 'loss/value_avg': 83.71256256103516, 'val/clipfrac_avg': 0.5, 'policy/entropy_avg': 1.5963726043701172, 'val/ratio': 0.9986764788627625, 'val/ratio_var': 0.0001175312208943069, 'val/num_eos_tokens': 0, 'lr': 1.9859999999999997e-06, 'episode': 8, 'epoch': 0.0}
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 269, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 641, in train
+    output, vpred_temp = forward(model, mb_query_responses, processing_class.pad_token_id)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1062, in forward
+    return model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/utils/operations.py", line 819, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/utils/operations.py", line 807, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 127, in forward
+    return self.policy(**kwargs), logits
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/peft_model.py", line 1923, in forward
+    return self.base_model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 311, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1031, in wrapped_forward
+    output = orig_forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 249, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/tuners/lora/layer.py", line 807, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 269, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 641, in train
+    output, vpred_temp = forward(model, mb_query_responses, processing_class.pad_token_id)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1062, in forward
+    return model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/utils/operations.py", line 819, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/utils/operations.py", line 807, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 127, in forward
+    return self.policy(**kwargs), logits
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/peft_model.py", line 1923, in forward
+    return self.base_model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 311, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1031, in wrapped_forward
+    output = orig_forward(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 249, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/tuners/lora/layer.py", line 807, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

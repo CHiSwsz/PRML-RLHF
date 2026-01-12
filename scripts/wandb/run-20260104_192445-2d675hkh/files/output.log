@@ -1,0 +1,17 @@
+  0%|                                                                                                                                                                                                                                                                            | 0/1875 [00:00<?, ?it/s]Traceback (most recent call last):
+[2026-01-04 19:24:49,109] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+  File "/home/taoji/zdxie/PRML-RLHF/./scripts/train_example.py", line 141, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/trl/experimental/ppo/ppo_trainer.py", line 550, in train
+    full_value, _, _ = get_reward(
+                       ^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/trl/trainer/utils.py", line 1018, in get_reward
+    output = lm_backbone(
+             ^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DebertaV2Model.forward() got an unexpected keyword argument 'use_cache'

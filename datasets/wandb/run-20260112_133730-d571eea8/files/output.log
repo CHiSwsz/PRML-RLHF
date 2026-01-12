@@ -1,0 +1,24 @@
+  0%|                                                                                                              | 0/667 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 371, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 529, in train
+    with self.null_ref_context():
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 400, in null_ref_context
+    self.accelerator.unwrap_model(self.model.policy).disable_adapter()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1964, in __getattr__
+    raise AttributeError(
+AttributeError: 'DistributedDataParallel' object has no attribute 'policy'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 371, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 529, in train
+[rank0]:     with self.null_ref_context():
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/contextlib.py", line 135, in __enter__
+[rank0]:     return next(self.gen)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 400, in null_ref_context
+[rank0]:     self.accelerator.unwrap_model(self.model.policy).disable_adapter()
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1964, in __getattr__
+[rank0]:     raise AttributeError(
+[rank0]: AttributeError: 'DistributedDataParallel' object has no attribute 'policy'

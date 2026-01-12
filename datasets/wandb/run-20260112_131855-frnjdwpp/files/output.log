@@ -1,0 +1,16 @@
+  0%|                                                                                                               | 0/84 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 340, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 554, in train
+    _, score, _ = get_reward(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1026, in get_reward
+    reward_logits = model.score(output.hidden_states[-1])
+AttributeError: 'Tensor' object has no attribute 'hidden_states'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 340, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 554, in train
+[rank0]:     _, score, _ = get_reward(
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1026, in get_reward
+[rank0]:     reward_logits = model.score(output.hidden_states[-1])
+[rank0]: AttributeError: 'Tensor' object has no attribute 'hidden_states'

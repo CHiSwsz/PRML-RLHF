@@ -1,0 +1,16 @@
+{"time":"2026-01-12T01:51:35.363688857+08:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2026-01-12T01:51:35.363717042+08:00","level":"INFO","msg":"created symlink","path":"/home/taoji/zdxie/PRML-RLHF/wandb/run-20260112_015135-qg8os88e/logs/debug-core.log"}
+{"time":"2026-01-12T01:51:35.579794605+08:00","level":"INFO","msg":"created new stream","id":"qg8os88e"}
+{"time":"2026-01-12T01:51:35.57983913+08:00","level":"INFO","msg":"stream: started","id":"qg8os88e"}
+{"time":"2026-01-12T01:51:35.579907016+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"qg8os88e"}
+{"time":"2026-01-12T01:51:35.579961329+08:00","level":"INFO","msg":"sender: started","stream_id":"qg8os88e"}
+{"time":"2026-01-12T01:51:35.580061505+08:00","level":"INFO","msg":"handler: started","stream_id":"qg8os88e"}
+{"time":"2026-01-12T01:51:36.209328779+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-12T02:43:12.382340245+08:00","level":"INFO","msg":"stream: closing","id":"qg8os88e"}
+{"time":"2026-01-12T02:43:12.382406433+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-12T02:43:12.383242839+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-12T02:43:14.446298411+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-12T02:43:14.995822621+08:00","level":"INFO","msg":"handler: closed","stream_id":"qg8os88e"}
+{"time":"2026-01-12T02:43:14.995872928+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qg8os88e"}
+{"time":"2026-01-12T02:43:14.995892773+08:00","level":"INFO","msg":"sender: closed","stream_id":"qg8os88e"}
+{"time":"2026-01-12T02:43:14.995992747+08:00","level":"INFO","msg":"stream: closed","id":"qg8os88e"}

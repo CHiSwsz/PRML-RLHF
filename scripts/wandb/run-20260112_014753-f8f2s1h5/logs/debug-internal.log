@@ -1,0 +1,16 @@
+{"time":"2026-01-12T01:47:54.013644936+08:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2026-01-12T01:47:54.013659443+08:00","level":"INFO","msg":"created symlink","path":"/home/taoji/zdxie/PRML-RLHF/wandb/run-20260112_014753-f8f2s1h5/logs/debug-core.log"}
+{"time":"2026-01-12T01:47:54.129513778+08:00","level":"INFO","msg":"created new stream","id":"f8f2s1h5"}
+{"time":"2026-01-12T01:47:54.129570832+08:00","level":"INFO","msg":"stream: started","id":"f8f2s1h5"}
+{"time":"2026-01-12T01:47:54.129679038+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:47:54.129703647+08:00","level":"INFO","msg":"sender: started","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:47:54.129809116+08:00","level":"INFO","msg":"handler: started","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:47:54.82520033+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-12T01:48:50.862147253+08:00","level":"INFO","msg":"stream: closing","id":"f8f2s1h5"}
+{"time":"2026-01-12T01:48:50.862215644+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-12T01:48:50.863102072+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-12T01:48:52.268686962+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-12T01:48:52.839579153+08:00","level":"INFO","msg":"handler: closed","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:48:52.839648634+08:00","level":"INFO","msg":"sender: closed","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:48:52.839646843+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"f8f2s1h5"}
+{"time":"2026-01-12T01:48:52.839786311+08:00","level":"INFO","msg":"stream: closed","id":"f8f2s1h5"}

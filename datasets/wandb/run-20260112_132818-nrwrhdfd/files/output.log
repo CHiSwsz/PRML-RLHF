@@ -1,0 +1,40 @@
+  0%|                                                                                                               | 0/84 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 352, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 670, in train
+    optimizer.step()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/optimizer.py", line 179, in step
+    self.optimizer.step(closure)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 517, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 82, in _use_grad
+    ret = func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/adam.py", line 237, in step
+    has_complex = self._init_group(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 1044, in _fn
+    return fn(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/adam.py", line 177, in _init_group
+    state["exp_avg"] = torch.zeros_like(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 18.00 MiB. GPU 0 has a total capacity of 23.69 GiB of which 11.75 MiB is free. Process 31699 has 254.00 MiB memory in use. Process 31700 has 254.00 MiB memory in use. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 21.96 GiB is allocated by PyTorch, and 772.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 352, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 670, in train
+[rank0]:     optimizer.step()
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/optimizer.py", line 179, in step
+[rank0]:     self.optimizer.step(closure)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+[rank0]:     return func.__get__(opt, opt.__class__)(*args, **kwargs)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 517, in wrapper
+[rank0]:     out = func(*args, **kwargs)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 82, in _use_grad
+[rank0]:     ret = func(*args, **kwargs)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/adam.py", line 237, in step
+[rank0]:     has_complex = self._init_group(
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 1044, in _fn
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/optim/adam.py", line 177, in _init_group
+[rank0]:     state["exp_avg"] = torch.zeros_like(
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 18.00 MiB. GPU 0 has a total capacity of 23.69 GiB of which 11.75 MiB is free. Process 31699 has 254.00 MiB memory in use. Process 31700 has 254.00 MiB memory in use. Including non-PyTorch memory, this process has 23.16 GiB memory in use. Of the allocated memory 21.96 GiB is allocated by PyTorch, and 772.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

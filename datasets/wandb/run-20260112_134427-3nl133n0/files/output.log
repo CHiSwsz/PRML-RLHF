@@ -1,0 +1,41 @@
+  0%|                                                                                                   | 1/2000 [00:09<5:23:42,  9.72s/it]Traceback (most recent call last):
+{'eps': 0, 'objective/kl': 2.956390380859375e-05, 'objective/entropy': 64.64372253417969, 'objective/non_score_reward': -1.4781952586417901e-06, 'objective/rlhf_reward': -6.668564319610596, 'objective/scores': -6.668562889099121, 'policy/approxkl_avg': 0.00115167535841465, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.006097633391618729, 'loss/value_avg': 11.70366096496582, 'val/clipfrac_avg': 0.0, 'policy/entropy_avg': 1.9377820491790771, 'val/ratio': 1.0039801597595215, 'val/ratio_var': 2.2596201233682223e-05, 'val/num_eos_tokens': 0, 'lr': 2e-06, 'episode': 1, 'epoch': 0.0}
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 371, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 742, in train
+    self.generate_completions(sampling=True)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 792, in generate_completions
+    for batch in self.eval_dataloader:
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/data_loader.py", line 567, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 732, in __next__
+    data = self._next_data()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 787, in _next_data
+    index = self._next_index()  # may raise StopIteration
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 722, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 347, in __iter__
+    sampler_iter = iter(self.sampler)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 123, in __iter__
+    return iter(range(len(self.data_source)))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 371, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 742, in train
+    self.generate_completions(sampling=True)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 792, in generate_completions
+    for batch in self.eval_dataloader:
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/accelerate/data_loader.py", line 567, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 732, in __next__
+    data = self._next_data()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 787, in _next_data
+    index = self._next_index()  # may raise StopIteration
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 722, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 347, in __iter__
+    sampler_iter = iter(self.sampler)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 123, in __iter__
+    return iter(range(len(self.data_source)))
+TypeError: object of type 'NoneType' has no len()

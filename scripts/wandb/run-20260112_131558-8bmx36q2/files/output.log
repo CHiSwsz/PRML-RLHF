@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                                                                                                                                                                                                  | 0/10000 [00:00<?, ?it/s]/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/utils/checkpoint.py:85: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+  0%|▎                                                                                                                                                                                                                                                                                                                                     | 10/10000 [00:56<15:00:51,  5.41s/it]Traceback (most recent call last):
+{'loss': 0.6907, 'grad_norm': 1.4367127418518066, 'learning_rate': 4.995500000000001e-06, 'rewards/chosen': 0.004464549012482166, 'rewards/rejected': -0.0005606336635537446, 'rewards/accuracies': 0.548046886920929, 'rewards/margins': 0.005025182850658894, 'logps/chosen': -93.79194641113281, 'logps/rejected': -66.57553100585938, 'logits/chosen': -0.8719229698181152, 'logits/rejected': -1.165710687637329, 'epoch': 0.27}
+  File "/home/taoji/zdxie/PRML-RLHF/scripts/DPO.py", line 199, in <module>
+    main(script_args, training_args, model_args, dataset_args)
+  File "/home/taoji/zdxie/PRML-RLHF/scripts/DPO.py", line 163, in main
+    trainer.train()
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/trainer.py", line 4071, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/accelerate/accelerator.py", line 2852, in backward
+    loss.backward(**kwargs)
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.87 GiB. GPU 0 has a total capacity of 23.69 GiB of which 3.35 GiB is free. Including non-PyTorch memory, this process has 20.33 GiB memory in use. Of the allocated memory 14.73 GiB is allocated by PyTorch, and 5.28 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

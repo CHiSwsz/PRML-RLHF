@@ -1,0 +1,160 @@
+  0%|                                                                                  | 1/1000 [00:10<2:58:52, 10.74s/it]
+{'eps': 0, 'objective/kl': -2.288818359375e-05, 'objective/entropy': 13.19849967956543, 'objective/non_score_reward': 1.1444091114753974e-06, 'objective/rlhf_reward': -1.1555733680725098, 'objective/scores': -1.1555745601654053, 'policy/approxkl_avg': 0.00032391113927587867, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.00031270086765289307, 'loss/value_avg': 9.143295288085938, 'val/clipfrac_avg': 0.6484375, 'policy/entropy_avg': 0.5162702798843384, 'val/ratio': 1.0021655559539795, 'val/ratio_var': 7.74054933572188e-06, 'val/num_eos_tokens': 1, 'lr': 2e-06, 'episode': 1, 'epoch': 0.0}
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┓
+┃[1m [0m[1mquery                                         [0m[1m [0m┃[1m [0m[1mmodel response                                [0m[1m [0m┃[1m [0m[1mscore               [0m[1m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━┩
+│ system                                         │ Sure, I'd love to go for a few beers after     │ -0.9078474044799805  │
+│ Reply causally and you may use emoji.          │ dinner!                                        │                      │
+│ user                                           │ 🍀<|im_end|>[PAD][PAD][PAD][PAD][PAD][PAD][PA… │                      │
+│ Say, Jim, how about going for a few beers      │                                                │                      │
+│ after dinner?                                  │                                                │                      │
+│ assistant                                      │                                                │                      │
+│                                                │                                                │                      │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼──────────────────────┤
+│ system                                         │ Yes, I can do push-ups. How can I help you     │ -0.5486267805099487  │
+│ Reply causally and you may use emoji.          │ today?<|im_end|>[PAD][PAD][PAD][PAD][PAD][PAD… │                      │
+│ user                                           │                                                │                      │
+│ Can you do push-ups?                           │                                                │                      │
+│ assistant                                      │                                                │                      │
+│                                                │                                                │                      │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼──────────────────────┤
+│ system                                         │ I'm sorry, but I can't assist with             │ -0.14776277542114258 │
+│ Reply causally and you may use emoji.          │ that.<|im_end|>[PAD][PAD][PAD][PAD][PAD][PAD]… │                      │
+│ user                                           │                                                │                      │
+│ Can you study with the radio on?               │                                                │                      │
+│ assistant                                      │                                                │                      │
+│                                                │                                                │                      │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼──────────────────────┤
+│ system                                         │ I'm just a computer program, so I don't have   │ 1.1627752780914307   │
+│ Reply causally and you may use emoji.          │ feelings. I'm here to assist you with any      │                      │
+│ user                                           │ questions or tasks you have. How can I help    │                      │
+│ Are you all right?                             │                                                │                      │
+│ assistant                                      │                                                │                      │
+│                                                │                                                │                      │
+├────────────────────────────────────────────────┼────────────────────────────────────────────────┼──────────────────────┤
+│ system                                         │ Hey! I'm just a chatbot, so I don't have the   │ -3.9881184101104736  │
+│ Reply causally and you may use emoji.          │ ability to see or know about new skates. But I │                      │
+│ user                                           │ can tell you that they                         │                      │
+│ Hey John, nice skates. Are they new?           │                                                │                      │
+│ assistant                                      │                                                │                      │
+│                                                │                                                │                      │
+└────────────────────────────────────────────────┴────────────────────────────────────────────────┴──────────────────────┘
+{'eps': 0, 'objective/kl': -0.0038738250732421875, 'objective/entropy': 15.52743148803711, 'objective/non_score_reward': 0.00019369125948287547, 'objective/rlhf_reward': -2.8391895294189453, 'objective/scores': -2.839383125305176, 'policy/approxkl_avg': 0.0010853750864043832, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': 0.00021483376622200012, 'loss/value_avg': 12.527252197265625, 'val/clipfrac_avg': 0.3671875, 'policy/entropy_avg': 0.6812868118286133, 'val/ratio': 0.9932553768157959, 'val/ratio_var': 3.7677327782148495e-05, 'val/num_eos_tokens': 0, 'lr': 1.9979999999999998e-06, 'episode': 2, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': -0.019168853759765625, 'objective/entropy': 3.7325782775878906, 'objective/non_score_reward': 0.0009584427461959422, 'objective/rlhf_reward': -0.298367977142334, 'objective/scores': -0.29932641983032227, 'policy/approxkl_avg': 0.0006722748512402177, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0024055244866758585, 'loss/value_avg': 13.154362678527832, 'val/clipfrac_avg': 0.5, 'policy/entropy_avg': 0.19907215237617493, 'val/ratio': 1.0111335515975952, 'val/ratio_var': 5.2187129767844453e-05, 'val/num_eos_tokens': 1, 'lr': 1.996e-06, 'episode': 3, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': -0.004150390625, 'objective/entropy': 4.292690277099609, 'objective/non_score_reward': 0.00020751956617459655, 'objective/rlhf_reward': 0.3623445928096771, 'objective/scores': 0.3621370792388916, 'policy/approxkl_avg': 0.0007037176983430982, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': -0.0012867727782577276, 'loss/value_avg': 43.999935150146484, 'val/clipfrac_avg': 0.8392857313156128, 'policy/entropy_avg': 0.4606090784072876, 'val/ratio': 1.0089685916900635, 'val/ratio_var': 3.161671702400781e-05, 'val/num_eos_tokens': 1, 'lr': 1.994e-06, 'episode': 4, 'epoch': 0.0}
+{'eps': 0, 'objective/kl': 0.06218719482421875, 'objective/entropy': 12.894018173217773, 'objective/non_score_reward': -0.0031093601137399673, 'objective/rlhf_reward': -0.42359212040901184, 'objective/scores': -0.4204827547073364, 'policy/approxkl_avg': 0.00041218826663680375, 'policy/clipfrac_avg': 0.0, 'loss/policy_avg': 0.0017292893026024103, 'loss/value_avg': 30.533740997314453, 'val/clipfrac_avg': 0.8500000238418579, 'policy/entropy_avg': 0.5916104316711426, 'val/ratio': 0.9979937076568604, 'val/ratio_var': 1.2226242915858165e-06, 'val/num_eos_tokens': 1, 'lr': 1.9919999999999997e-06, 'episode': 5, 'epoch': 0.0}
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 426, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 511, in train
+    query_responses, logitss = batch_generation(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1204, in batch_generation
+    query_response, logits = generate(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1178, in generate
+    output = lm_backbone.generate(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/generation/utils.py", line 2784, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 234, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 158, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 79, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 54, in rotate_half
+    return torch.cat((-x2, x1), dim=-1)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/taoji/zdxie/PRML-RLHF/datasets/ppo_local_rm.py", line 426, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/experimental/ppo/ppo_trainer.py", line 511, in train
+    query_responses, logitss = batch_generation(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1204, in batch_generation
+    query_response, logits = generate(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/trl/trainer/utils.py", line 1178, in generate
+    output = lm_backbone.generate(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/generation/utils.py", line 2784, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 234, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 158, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 79, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+  File "/home/taoji/.conda/envs/verl/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 54, in rotate_half
+    return torch.cat((-x2, x1), dim=-1)
+KeyboardInterrupt

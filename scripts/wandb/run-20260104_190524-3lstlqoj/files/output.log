@@ -1,0 +1,32 @@
+  0%|                                                                                                                                                                                                                                                                             | 0/469 [00:00<?, ?it/s]Traceback (most recent call last):
+[2026-01-04 19:05:27,668] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+  File "/home/taoji/zdxie/PRML-RLHF/./scripts/train_example.py", line 141, in <module>
+    trainer.train()
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/trl/experimental/ppo/ppo_trainer.py", line 532, in train
+    ref_output = forward(ref_policy, query_response, processing_class.pad_token_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/trl/trainer/utils.py", line 1062, in forward
+    return model(
+           ^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 463, in forward
+    logits = self.lm_head(hidden_states[:, slice_indices, :])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/taoji/.conda/envs/MHA2MLA/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 19.56 GiB. GPU 0 has a total capacity of 23.69 GiB of which 10.39 GiB is free. Including non-PyTorch memory, this process has 13.28 GiB memory in use. Of the allocated memory 12.53 GiB is allocated by PyTorch, and 463.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,3 @@
+{"id": 0, "dialog_id": "dailydialog-train-0", "user": "Say, Jim, how about going for a few beers after dinner?", "assistant": "You know that is tempting but is really not good for our fitness."}
+{"id": 1, "dialog_id": "dailydialog-train-1", "user": "Can you do push-ups?", "assistant": "Of course I can. It's a piece of cake! Believe it or not, I can do 30 push-ups a minute."}
+{"id": 2, "dialog_id": "dailydialog-train-2", "user": "Can you study with the radio on?", "assistant": "No, I listen to background music."}
